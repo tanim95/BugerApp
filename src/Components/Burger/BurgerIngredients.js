@@ -1,6 +1,7 @@
 import css from './BurgerIngredients.module.css';
+import PropTypes from 'prop-types';
 
-const burgerIngerdients = props => {
+const BurgerIngerdients = props => {
   let ingredient = null;
 
   switch (props.type) {
@@ -21,7 +22,7 @@ const burgerIngerdients = props => {
     case 'cheese':
       ingredient = <div className={css.Cheese}></div>;
       break;
-    case 'becon':
+    case 'bacon':
       ingredient = <div className={css.Bacon}></div>;
       break;
     case 'salad':
@@ -34,4 +35,8 @@ const burgerIngerdients = props => {
   return ingredient;
 };
 
-export default burgerIngerdients;
+BurgerIngerdients.propTypes = {
+  type: PropTypes.string.isRequired,
+};
+
+export default BurgerIngerdients;
