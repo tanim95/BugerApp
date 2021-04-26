@@ -2,6 +2,7 @@ body {
   margin: 0;
   padding: 0;
   background-color: #fff;
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+  font-size: 1.4rem;
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }

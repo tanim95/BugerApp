@@ -1,0 +1,17 @@
+.Navli {
+  display: inline-block;
+  align-items: center;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.Navli a {
+  color: #fff;
+  margin-left: 50px;
+  font-size: 20px;
+  text-decoration: none;
+}
+.Navli a:hover {
+  color: #cf8f2e;
+}
